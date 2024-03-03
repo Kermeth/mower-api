@@ -1,0 +1,32 @@
+POST http://localhost:8080/deploy
+Content-Type: text/plain
+
+5 5
+1 2 N
+LMLMLMLMM
+3 3 E
+MMRMMRMRRM
+
+### Invalid input
+POST http://localhost:8080/deploy
+Content-Type: text/plain
+
+5 5
+
+
+1 2 N
+LMLMLMLMM
+3 3 E
+MMRMMRMRRM
+
+### 3 Mowers
+POST http://localhost:8080/deploy
+Content-Type: text/plain
+
+10 10
+1 2 N
+LMLMLMLMM
+3 3 E
+MMRMMRMRRM
+5 9 W
+MMRMMRMRRMLMRMLMRMLMLLM
