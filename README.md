@@ -32,3 +32,8 @@ LMLMLMLMM # (L|R|M) Mower 1 instructions
 3 3 E # Mower 2 initial position and orientation
 MMRMMRMRRM # Mower 2 instructions
 ```
+
+### Swagger
+
+The API has a swagger documentation available at `http://localhost:8080/swagger-ui.html`
+There you can test the application as well.

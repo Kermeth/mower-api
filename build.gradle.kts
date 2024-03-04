@@ -26,6 +26,9 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.springframework.boot:spring-boot-starter-webflux")
 
+	// Swagger
+	implementation("org.springdoc:springdoc-openapi-starter-webflux-ui:2.3.0")
+
 	// Test
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("io.projectreactor:reactor-test")
